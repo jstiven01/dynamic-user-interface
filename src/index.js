@@ -17,3 +17,20 @@ var d = dropdown(el)
 d.on('select', function (li) {
   console.log(li)
 })
+
+///JSON
+const student = {
+  name:'Liset',
+  age: 35,
+  hobbies: ['aaaaa','bbbb','ccccc'],
+  car: {
+    brand: 'chevrolet',
+    year: 2018,
+  }
+}
+
+console.log(student);
+const studentStringfy = JSON.stringify(student);
+console.log(typeof studentStringfy, studentStringfy);
+const JSONtoStudent = JSON.parse(studentStringfy);
+console.log(typeof JSONtoStudent, JSONtoStudent);
