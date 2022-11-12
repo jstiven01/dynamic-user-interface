@@ -28,7 +28,7 @@
     "css-loader": "^3.4.0",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "dropdown-menu": "^0.1.1"
